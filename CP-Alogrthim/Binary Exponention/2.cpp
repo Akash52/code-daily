@@ -18,6 +18,6 @@ int main()
 {
 	long long a,b;
 	cin>>a>>b;
-	cout<<power(a,b);
+	cout<<power(a,b)
 	return 0;
 }
