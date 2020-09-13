@@ -1,5 +1,10 @@
-# daily-10-problem-solve
+# LeetCode Random Proble :-)
 
-#I'm commit my self practice programming 
+![](https://img.shields.io/travis/skygragon/leetcode-cli.svg?style=flat)
+![](https://img.shields.io/badge/language-C++-red.svg)
+![](https://img.shields.io/badge/language-Java-yellow.svg)
+![](https://img.shields.io/badge/%3E-leetcode-green.svg)
+![](https://img.shields.io/badge/%3C-awesome-green.svg)
 
-![alt text](https://isocpp.org/files/img/cpp_logo.png "Logo Title Text 1")
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
