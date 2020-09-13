@@ -10,4 +10,4 @@
 
 | # | Title | Difficulty |
 |---| ----- | -------- |
-|[136](https://leetcode.com/problems/single-number/)|[Single Number](https://github.com/grandyang/LeetCode-All-In-One/issues/919)|Medium|
+|[136](https://leetcode.com/problems/single-number/)|[Single Number](https://github.com/grandyang/LeetCode-All-In-One/issues/919)|Easy|
