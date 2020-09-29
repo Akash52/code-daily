@@ -18,6 +18,24 @@ int main(){
     cout<<"\nvector after sorting is: "<<" ";
     for(int i=0;i<n;i++)
     cout<<vect[i]<<" ";
+    //reversing the vector 
+    reverse(vect.begin(),vect.end());
+    cout<<"\n vector after reversing is: ";
+    for(int i=0;i<n;i++)
+    cout<<vect[i]<<" ";
+    cout<<"\n Maximum element of vector is: ";
+    cout<<*max_element(vect.begin(),vect.end());
+    cout<<"\n Minumum element of vector is: ";
+    cout<<*min_element(vect.begin(),vect.end());
+    cout << "\nThe summation of vector elements is: "; 
+    cout << accumulate(vect.begin(), vect.end(), 0); 
+
+
+
+
+
+
+
 
 return 0;
 }
