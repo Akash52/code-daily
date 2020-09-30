@@ -21,10 +21,8 @@ int main()
 	cin>>t;
 	while(t--)
 	{
-	
 	cin>>a>>b>>m;
 	cout<<power(a,b,m)<<endl;
-	
 	}
 	int c;
     cin >> c;
