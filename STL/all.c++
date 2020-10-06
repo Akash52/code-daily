@@ -31,11 +31,5 @@ int main(){
     cout << accumulate(vect.begin(), vect.end(), 0); 
 
 
-
-
-
-
-
-
 return 0;
 }
