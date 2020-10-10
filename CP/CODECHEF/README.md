@@ -20,6 +20,14 @@ int main()
     cout<<sum;
 }
 ```
+#### OUTPUT
+```
+56 5
+51
+56 5
+61
+
+```
 
 ### [Add Two Numbers ](https://www.codechef.com/problems/FLOW001)
 ```cpp
@@ -42,4 +50,13 @@ int main() {
 
 	return 0;
 }
+```
+#### OUTPUT
+```
+2
+12 12
+15 16
+24
+21
+
 ```
