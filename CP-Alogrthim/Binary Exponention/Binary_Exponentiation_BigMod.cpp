@@ -1,3 +1,5 @@
+//Problem find BigMod Using Binary Exponentian
+
 #include<bits/stdc++.h>
 using namespace std;
 long long int bigmod(long long int a,long long int b,long long c)
@@ -28,3 +30,11 @@ int main()
 	}
 	return 0;
 }
+
+/*
+Input : 3 18132 17 
+example (3 POWER 18132 mod 17)=13
+Output : 13
+Time Complexity :  O(logn)
+*/
+
