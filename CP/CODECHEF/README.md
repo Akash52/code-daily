@@ -60,3 +60,35 @@ int main() {
 21
 
 ```
+### [Find Remainder ](https://www.codechef.com/problems/FLOW002)
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int t,a,b;
+    cin>>t;
+    while(t--){
+     cin>>a>>b;
+     cout<<a%b<<endl;
+    }
+    return 0;
+}
+```
+### Example
+```
+Input
+3 
+1 2
+100 200
+10 40
+
+Output
+3
+300
+50
+
+```
+
+
+
