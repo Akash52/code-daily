@@ -36,7 +36,7 @@ Enter any length number 454545
 output :
 Number of digits 6
 ```
-### count_digit1
+### count_digit_1
 
 ```cpp
 //Recursive Solution
