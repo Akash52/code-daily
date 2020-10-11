@@ -1,8 +1,8 @@
-# DATA STRUCUTRE AND ALGORITHM
+# DATA STRUCTURE AND ALGORITHM
 
 ## MATH
 
-### Count_Digit
+### 1.Count_Digit
 
 ```cpp
 //Simple Iterative Solution
@@ -36,7 +36,7 @@ Enter any length number 454545
 output :
 Number of digits 6
 ```
-### count_digit_1
+### 2.count_digit
 
 ```cpp
 //Recursive Solution
