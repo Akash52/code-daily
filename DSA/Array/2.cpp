@@ -1,3 +1,4 @@
+//Program to find sum of elements in a given array
 #include<iostream>
 using namespace std;
 int SumArray(int arr[],int n)
