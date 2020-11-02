@@ -10,4 +10,5 @@ int main()
     //o(LogN)
 
     bool present = binary_search(A.begin(), A.end(), 3); //true
+    bool present = binary_search(A.begin(), A.end(),4 ); //False
 }
