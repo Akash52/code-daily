@@ -11,7 +11,7 @@ int main()
 		cin>>n;
 		if(n%7==0)
 		{
-			break;
+			continue;
 		}
 		cout<<"No "<<n<<endl;
 	}
