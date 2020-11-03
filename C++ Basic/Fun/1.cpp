@@ -14,4 +14,5 @@ int main()
 		}
 		cout<<"No "<<n<<endl;
 	}
+	cout<<"Came out of loop"<<endl;
 }
