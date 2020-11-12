@@ -7,10 +7,12 @@ int main()
 {
 	int n;
 	cin>>n;
-	
 	int a[1000];
 	int maximumSum=0;
 	int currentSum=0;
+	int left=-1;
+	int right=-1;
+	
 	
 	for(int i=0;i<n;i++){
 		cin>>a[i];
@@ -26,10 +28,17 @@ int main()
 			}
 			if(currentSum>maximumSum){
 				maximumSum=currentSum;
+				left=i;
+				right=j;
 			}
 		}
 		
 	}
 	cout<<"MaximumSum is "<<maximumSum<<endl;
+	
+	for(int k=left;k<=right;k++ ){
+		cout<<a[k]<<",";
+	}
+	
 	return 0;
 }
