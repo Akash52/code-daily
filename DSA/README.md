@@ -2,7 +2,9 @@
 
 <!-- toc -->
 ## Array
-  * [Program to find largest element in an array](#Program-to-find-largest-element-in-an-array)
+  * [1.Program to find largest element in an array](#Program-to-find-largest-element-in-an-array)
+   * [2.Program to find sum of elements in a given array](#Program-to-find-sum-of-elements-in-a-given-array)
+  
   
   
   
@@ -12,7 +14,7 @@
 
 ## Array
 
-### Program to find largest element in an array
+### 1.Program to find largest element in an array
 ```cpp
 #include<iostream>
 using namespace std;
@@ -35,7 +37,25 @@ int main()
 	return 0;	
 }
 ```
+### 2.Program to find sum of elements in a given array
+```cpp
+#include<iostream>
+using namespace std;
+int SumArray(int arr[],int n)
+{
+	int sum=0;
+	for(int i=0;i<n;i++)
+	sum +=arr[i];
+	return sum;
+}
 
+int main()
+{
+	int arr[]={10,20,30};
+	int n=sizeof(arr)/sizeof(arr[0]);
+	cout<<"Sum of Array element is "<<SumArray(arr,n);
+}
+```
 ## MATH
 
 ### 1.Count_Digit
