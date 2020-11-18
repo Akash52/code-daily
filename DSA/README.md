@@ -1,4 +1,5 @@
  <h1 align="center"><img alt="wave" src="https://image.flaticon.com/icons/png/512/1465/1465611.png" width="50"><br> Data Structure and Algorithm </h1>
+ 
 <!-- toc -->
 ## Array
   * [1.Program to find largest element in an array](#Program-to-find-largest-element-in-an-array)
