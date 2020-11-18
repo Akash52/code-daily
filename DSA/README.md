@@ -3,7 +3,9 @@
 <!-- toc -->
 ## Array
   * [1.Program to find largest element in an array](#Program-to-find-largest-element-in-an-array)
-   * [2.Program to find sum of elements in a given array](#Program-to-find-sum-of-elements-in-a-given-array)
+  * [2.Program to find sum of elements in a given array](#Program-to-find-sum-of-elements-in-a-given-array)
+  * [3.Find the Number Occurring Odd Number of Times](#Find-the-Number-Occurring-Odd-Number-of-Times)
+      
   
   
   
@@ -14,7 +16,7 @@
 
 ## Array
 
-### 1.Program to find largest element in an array
+### Program to find largest element in an array
 ```cpp
 #include<iostream>
 using namespace std;
@@ -37,7 +39,7 @@ int main()
 	return 0;	
 }
 ```
-### 2.Program to find sum of elements in a given array
+### Program to find sum of elements in a given array
 ```cpp
 #include<iostream>
 using namespace std;
@@ -56,6 +58,26 @@ int main()
 	cout<<"Sum of Array element is "<<SumArray(arr,n);
 }
 ```
+### Find the Number Occurring Odd Number of Times
+```cpp
+#include<iostream>
+using namespace std;
+int OddOccurance(int arr[],int n)
+{
+	int res=0;
+	for(int i=0;i<n;i++)
+	res ^=arr[i];
+	return res;
+}
+int main()
+{
+	int arr[] = {2, 3, 5, 4, 5, 2, 4, 3, 5, 2, 4, 4, 2};
+	int n=sizeof(arr)/sizeof(arr[0]);
+	cout<<"Odd occurance is "<<OddOccurance(arr,n);	 
+}
+```
+
+
 ## MATH
 
 ### 1.Count_Digit
