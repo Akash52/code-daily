@@ -1,11 +1,12 @@
-# DATA STRUCTURE AND ALGORITHM
-
+ <h1 align="center"><img alt="wave" src="https://image.flaticon.com/icons/png/512/1465/1465611.png" width="50"><br> Data Structure and Algorithm </h1>
 <!-- toc -->
 ## Array
   * [1.Program to find largest element in an array](#Program-to-find-largest-element-in-an-array)
   * [2.Program to find sum of elements in a given array](#Program-to-find-sum-of-elements-in-a-given-array)
   * [3.Find the Number Occurring Odd Number of Times](#Find-the-Number-Occurring-Odd-Number-of-Times)
-      
+   * [4.Find the Missing Number](#This-method-uses-the-technique-of-XOR-to-solve-the-problem)
+  
+        
   
   
   
@@ -74,6 +75,30 @@ int main()
 	int arr[] = {2, 3, 5, 4, 5, 2, 4, 3, 5, 2, 4, 4, 2};
 	int n=sizeof(arr)/sizeof(arr[0]);
 	cout<<"Odd occurance is "<<OddOccurance(arr,n);	 
+}
+```
+### This method uses the technique of XOR to solve the problem
+```cpp
+#include<iostream>
+using namespace std;
+
+int findMissing(int arr[],int n)
+{
+	int x1=0;
+	int x2=1;
+	for(int i=0;i<n;i++)
+	x1=x1^arr[i];
+	for(int i=1;i<n;i++)
+	x2=x2^i;
+	return(x1^x2);
+}
+
+int main()
+{
+	int arr[]={1,2,4,5};
+	int n=sizeof(arr)/sizeof(arr[0]);
+	cout<<"Missing Number is "<<findMissing(arr,n);
+	return 0;
 }
 ```
 
