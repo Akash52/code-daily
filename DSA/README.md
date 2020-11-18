@@ -1,5 +1,20 @@
 # DATA STRUCTURE AND ALGORITHM
 
+<!-- toc -->
+## Array
+  * [Console log](#console-log)
+  * [DataType,Naming,Rules](#DataType-Naming-Rules)
+  * [Datatype,PRIMITIVE & REFERENCE](#Datatype-PRIMITIVE-REFERENCE)
+  * [Type conversion](#Type-conversion)
+  * [Numbers  & Math object](#Numbers-Math-object)
+  * [String and its operation](#string-and-its-operation)
+  * [object and literals](#object-and-literals)
+  * [Date and time](#Date-and-time)
+  
+  
+
+<!-- tocstop -->
+
 ## MATH
 
 ### 1.Count_Digit
