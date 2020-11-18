@@ -6,6 +6,10 @@
   * [2.Program to find sum of elements in a given array](#Program-to-find-sum-of-elements-in-a-given-array)
   * [3.Find the Number Occurring Odd Number of Times](#Find-the-Number-Occurring-Odd-Number-of-Times)
    * [4.Find the Missing Number](#This-method-uses-the-technique-of-XOR-to-solve-the-problem)
+   * [5. Write a program to reverse an array or string](#Write-a-program-to-reverse-an-array-or-string)
+   * [6.Program for array rotation](#Program-for-array-rotation)
+   
+  
   
         
   
@@ -99,6 +103,71 @@ int main()
 	int arr[]={1,2,4,5};
 	int n=sizeof(arr)/sizeof(arr[0]);
 	cout<<"Missing Number is "<<findMissing(arr,n);
+	return 0;
+}
+```
+### Write a program to reverse an array or string
+```cpp
+#include<iostream>
+using namespace std;
+void ArrayRever(int arr[],int start,int end)
+{
+	while(start<end)
+	{
+		int temp=arr[start];
+		arr[start]=arr[end];
+		arr[end]=temp;
+		start++;
+		end--;
+	}
+	
+}
+void PrintArray(int arr[],int size)
+{
+	for(int i=0;i<size;i++)
+	cout<<arr[i]<<" ";
+	cout<<endl;
+}
+
+int main()
+{
+	int arr[]={1,2,3,4};
+	int n=sizeof(arr)/sizeof(arr[0]);
+	ArrayRever(arr, 0, n-1);
+	cout << "Reversed array is" << endl;
+    	PrintArray(arr, n);
+}
+```
+### Program for array rotation
+
+```cpp
+#include<iostream>
+using namespace std;
+
+void leftRotatebyone(int arr[],int n)
+{
+	int temp=arr[0];
+	for(int i=0;i<n-1;i++)
+	{
+	arr[i]=arr[i+1];
+	arr[i]=temp;
+}
+}
+void leftRotate(int arr[],int d,int n)
+{
+	for(int i=0;i<d;i++)
+	leftRotatebyone(arr,n);
+}
+void PrintRotateArray(int arr[],int n)
+{
+	for(int i=0;i<n;i++)
+	cout<<arr[i]<<" ";
+}
+int main(){
+	int arr[]={1,2,3,4,5};
+	int n=sizeof(arr)/sizeof(arr[0]);	
+	leftRotate(arr,2,n);
+	PrintRotateArray(arr,n);
 	return 0;
 }
 ```
