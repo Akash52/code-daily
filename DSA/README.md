@@ -151,7 +151,7 @@ void leftRotatebyone(int arr[],int n)
 	{
 	arr[i]=arr[i+1];
 	arr[i]=temp;
-}
+	}
 }
 void leftRotate(int arr[],int d,int n)
 {
