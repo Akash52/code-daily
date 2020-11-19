@@ -8,6 +8,11 @@
    * [4.Find the Missing Number](#This-method-uses-the-technique-of-XOR-to-solve-the-problem)
    * [5. Write a program to reverse an array or string](#Write-a-program-to-reverse-an-array-or-string)
    * [6.Program for array rotation](#Program-for-array-rotation)
+    * [7.Stock Buy Sell to Maximize Profit](#Stock-Buy-Sell-to-Maximize-Profit)
+    * [8.Generating SubArray](#Generating-SubArray)
+    
+   
+  
    
   
   
@@ -171,8 +176,52 @@ int main(){
 	return 0;
 }
 ```
+### Stock Buy Sell to Maximize Profit
+```cpp
+#include<iostream>
+using namespace std;
 
+int stock(int arr[],int n)
+{
+	int profit=0;
+	for(int i=1;i<n;i++)
+	if(arr[i]>arr[i-1])
+	profit+=(arr[i]-arr[i-1]);
+	return profit;
+}
+int main()
+{
+	int arr[]={1,5,3,8,12};
+	
+	int n=sizeof(arr)/sizeof(arr[0]);
+	cout<<stock(arr,n);
+	return 0;
+}
+```
+### Generating SubArray
+```cpp
+#include<iostream>
+using namespace std;
 
+int main()
+{
+	int n;
+	cin>>n;
+	int a[1000];
+	for(int i=0;i<n;i++){
+		cin>>a[i];
+	}
+	for(int i=0;i<n;i++){
+		for(int j=i;j<n;j++){		
+			for(int k=i;k<=j;k++){
+				cout<<a[k]<<" ,";
+			}
+			cout<<endl;
+		}
+	}
+	return 0;
+}
+```
 ## MATH
 
 ### 1.Count_Digit
