@@ -2,14 +2,15 @@
  
 <!-- toc -->
 ## Array
+
   * [1.Program to find largest element in an array](#Program-to-find-largest-element-in-an-array)
   * [2.Program to find sum of elements in a given array](#Program-to-find-sum-of-elements-in-a-given-array)
   * [3.Find the Number Occurring Odd Number of Times](#Find-the-Number-Occurring-Odd-Number-of-Times)
-   * [4.Find the Missing Number](#This-method-uses-the-technique-of-XOR-to-solve-the-problem)
-   * [5. Write a program to reverse an array or string](#This-method-uses-the-technique-of-XOR-to-solve-the-problem)
-   * [6.Program for array rotation](#Program-for-array-rotation)
-    * [7.Stock Buy Sell to Maximize Profit](#Stock-Buy-Sell-to-Maximize-Profit)
-    * [8.Generating SubArray](#Generating-SubArray)
+  * [4.Find the Missing Number](#This-method-uses-the-technique-of-XOR-to-solve-the-problem)
+  * [5. Write a program to reverse an array or string](#This-method-uses-the-technique-of-XOR-to-solve-the-problem)
+  * [6.Program for array rotation](#Program-for-array-rotation)
+  * [7.Stock Buy Sell to Maximize Profit](#Stock-Buy-Sell-to-Maximize-Profit)
+  * [8.Generating SubArray](#Generating-SubArray)
     
    
   
