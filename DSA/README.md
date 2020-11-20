@@ -11,6 +11,9 @@
   * [6.Program for array rotation](#Program-for-array-rotation)
   * [7.Stock Buy Sell to Maximize Profit](#Stock-Buy-Sell-to-Maximize-Profit)
   * [8.Generating SubArray](#Generating-SubArray)
+  * [9.Largest Sum Contiguous Subarray](#Largest-Sum-Contiguous-Subarray)
+ 
+
     
    
   
@@ -223,6 +226,45 @@ int main()
 	return 0;
 }
 ```
+### Largest Sum Contiguous Subarray
+```cpp
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int n;
+	cin>>n;
+	int a[1000];
+	int maximumSum=0;
+	int currentSum=0;
+	int left=-1;
+	int right=-1;
+	
+	for(int i=0;i<n;i++){
+		cin>>a[i];
+	}
+	for(int i=0;i<n;i++){
+		for(int j=i;j<n;j++){
+			currentSum=0;			
+			for(int k=i;k<=j;k++){
+				
+			currentSum+=a[k];
+			}
+			if(currentSum>maximumSum){
+				maximumSum=currentSum;
+				left=i;
+				right=j;
+			}
+		}
+	cout<<"MaximumSum is "<<maximumSum<<endl;
+	for(int k=left;k<=right;k++ ){
+		cout<<a[k]<<",";
+	}
+	return 0;
+}
+```
+
 ## MATH
 
 ### 1.Count_Digit
