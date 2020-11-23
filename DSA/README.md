@@ -18,7 +18,7 @@
   ## Math
 
   * [1.Count Digit problem](#Count-Digit-problem)
-  * [2.count digit Recursive Solution](#count-digit-Recursive-Solution)
+  * [2.Count digit Recursive Solution](#count-digit-Recursive-Solution)
   * [3.Find the Number Occurring Odd Number of Times](#Find-the-Number-Occurring-Odd-Number-of-Times)
 
  
