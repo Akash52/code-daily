@@ -19,7 +19,12 @@
 
   * [1.Count Digit problem](#Count-Digit-problem)
   * [2.Count digit Recursive Solution](#count-digit-Recursive-Solution)
-  * [3.Find the Number Occurring Odd Number of Times](#Find-the-Number-Occurring-Odd-Number-of-Times)
+  * [3.Program for factorial of a number](#Program-for-factorial-of-a-number)
+  * [4. Program for factorial of a number recursive solution](#Program-for-factorial-of-a-number-recursive-solution)
+  
+ 
+  
+  
 
  
 
@@ -398,4 +403,53 @@ input :
 Enter any length number 454545
 output :
 Number of digits 6
+```
+### Program for factorial of a number
+```cpp
+#include<iostream>
+using namespace std;
+
+unsigned int factorial(unsigned int n)
+{
+	if(n==0)
+	return 1;
+	return n*factorial(n-1);
+}
+
+int main()
+{
+	int num=5;
+	cout<<"Factorial of "<<num<<" is "<<factorial(num)<<endl;
+	return 0;
+}
+```
+### Program for factorial of a number recursive solution
+```cpp
+#include<iostream>
+using namespace std;
+
+int FactorialRecurision(int n)
+{
+	if(n==0)
+	return 1;
+	for(int i=0;i<n;i++)
+	return n*FactorialRecurision(n-1);
+}
+
+int FactorialIteration(int n)
+{
+	int res=1;
+	for(int i=2;i<n;i++)
+	res*=i;
+	return res;
+}
+
+int main()
+{
+	int n=5;
+	
+	cout<<"Factorial Recurision "<<FactorialRecurision(n)<<endl;
+	cout<<"Factorial Iteration "<<FactorialRecurision(n);
+	
+}
 ```
