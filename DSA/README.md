@@ -14,6 +14,12 @@
   * [9.Largest Sum Contiguous Subarray](#Largest-Sum-Contiguous-Subarray)
   * [10.Largest Sum Contiguous Subarray Better Aproach](#Largest-Sum-Contiguous-Subarray-Better-Aproach)
   * [11.Largest Sum Contiguous Subarray Better Aproach Optimize solution](#Largest-Sum-Contiguous-Subarray-Better-Aproach-Optimize-solution-O(n))
+  
+  ## Math
+
+  * [1.Count Digit problem](#Count-Digit-problem)
+  * [2.count digit Recursive Solution](#count-digit-Recursive-Solution)
+  * [3.Find the Number Occurring Odd Number of Times](#Find-the-Number-Occurring-Odd-Number-of-Times)
 
  
 
@@ -329,7 +335,7 @@ int main()
 
 ## MATH
 
-### 1.Count_Digit
+### Count Digit problem
 
 ```cpp
 //Simple Iterative Solution
@@ -363,7 +369,7 @@ Enter any length number 454545
 output :
 Number of digits 6
 ```
-### 2.count_digit
+### count digit Recursive Solution
 
 ```cpp
 //Recursive Solution
