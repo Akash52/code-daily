@@ -21,6 +21,9 @@
   * [2.Count digit Recursive Solution](#count-digit-Recursive-Solution)
   * [3.Program for factorial of a number](#Program-for-factorial-of-a-number)
   * [4. Program for factorial of a number recursive solution](#Program-for-factorial-of-a-number-recursive-solution)
+  * [4.Prime Numbers](#Prime-Numbers)
+  
+  
   
  
   
@@ -453,3 +456,25 @@ int main()
 	
 }
 ```
+### Prime Numbers
+```cpp
+include<bits/stdc++.h>
+using namespace std;
+
+bool isPrime(int n)
+{
+	if(n<=1)
+	return false;
+	for(int i=2;i<n;i++)
+	if(n%i==0)
+	return false;
+	return true;
+}
+
+int main()
+{
+	isPrime(11) ? cout << " true\n" : 
+                  cout << " false\n";
+}
+```
+
