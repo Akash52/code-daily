@@ -31,6 +31,7 @@
   * [3.Check whether K-th bit is set or not](#Check-whether-K-th-bit-is-set-or-not)
   * [4.Cpp code to swap using XOR](#Cpp-code-to-swap-using-XOR)
   * [5.Find the Number Occurring Odd Number of Times](# Find-the-Number-Occurring-Odd-Number-of-Times)
+
   
   
  
