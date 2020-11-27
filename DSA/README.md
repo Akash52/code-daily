@@ -23,6 +23,13 @@
   * [4. Program for factorial of a number recursive solution](#Program-for-factorial-of-a-number-recursive-solution)
   * [4.Prime Numbers](#Prime-Numbers)
   
+   ## Bit Magic
+   
+    
+  * [2.Count digit Recursive Solution](#count-digit-Recursive-Solution)
+  * [2.Count digit Recursive Solution](#count-digit-Recursive-Solution)
+  * [2.Count digit Recursive Solution](#count-digit-Recursive-Solution)
+   
   
   
  
@@ -477,4 +484,108 @@ int main()
                   cout << " false\n";
 }
 ```
+
+## Bit Magic
+
+### and or xor program
+```cpp
+include<bits/stdc++.h>
+using namespace std;
+
+bool isPrime(int n)
+{
+	if(n<=1)
+	return false;
+	for(int i=2;i<n;i++)
+	if(n%i==0)
+	return false;
+	return true;
+}
+
+int main()
+{
+	isPrime(11) ? cout << " true\n" : 
+                  cout << " false\n";
+}
+```
+### and Right Shift Oprerator Program
+```cpp
+//Left Shift Oprerator
+#include<bits/stdc++.h>
+using namespace std; 
+
+int main()
+{
+	int x=3;
+	cout<<(x<<1)<<endl;
+	cout<<(x<<2)<<endl;
+	cout<<(x<<3)<<endl;
+	
+	int y=4;
+	int z=(x<<y);
+	cout<<z;
+	
+	return 0;
+	
+}
+
+/*	3*2 POW 1 =6
+	3*2 POW 2 =12
+	3*2 POW 2 =12
+*/
+```
+### Left Shift Oprerator Program
+```cpp
+//Left Shift Oprerator
+#include<bits/stdc++.h>
+using namespace std; 
+
+int main()
+{
+	int x=33;
+	cout<<(x>>1)<<endl;
+	cout<<(x>>2)<<endl;
+	cout<<(x>>3)<<endl;
+	
+	int y=4;
+	int z=(x>>y);
+	cout<<z;
+	
+	return 0;
+	
+}
+
+/*	
+	x=x / 2 pow y
+	33/2 pow 1 = 16
+	33/2 pow 2 = 8
+	
+*/
+```
+
+### Check whether K-th bit is set or not
+```cpp
+//Check whether K-th bit is set or not
+
+#include<iostream>
+using namespace std;
+
+void isKthBit(int n,int k)
+
+{
+		if(n&(1<<(k-1)))
+		cout<<"SET";
+		else
+		cout<<"NOT SET";
+}
+
+int main()
+{
+	int n,k;
+	cin>>n>>k;
+	isKthBit(n,k);
+	return 0;
+}
+```
+
 
