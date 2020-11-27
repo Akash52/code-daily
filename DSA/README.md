@@ -29,8 +29,11 @@
   * [1.and or xor program](#and-or-xor-program)
   * [2.Right Shift Oprerator Program](#Right-Shift-Oprerator-Program)
   * [3.Check whether K-th bit is set or not](#Check-whether-K-th-bit-is-set-or-not)
+  * [4.Cpp code to swap using XOR](#Cpp-code-to-swap-using-XOR)
   
-  and or xor program
+
+  
+ 
    
   
   
@@ -566,6 +569,24 @@ int main()
 	cin>>n>>k;
 	isKthBit(n,k);
 	return 0;
+}
+```
+### Cpp code to swap using XOR
+```cpp
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int x=10,y=5;
+	
+	x=x^y; //x 15(1111)
+	y=x^y;	// y 10(1010)
+	x=x^y;	// x 5(0101)
+	
+	cout<<"After swapping X=" <<x<<",Y="<<y;
+	return 0;
+
 }
 ```
 
