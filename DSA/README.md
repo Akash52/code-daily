@@ -26,9 +26,11 @@
    ## Bit Magic
    
     
-  * [2.Count digit Recursive Solution](#count-digit-Recursive-Solution)
-  * [2.Count digit Recursive Solution](#count-digit-Recursive-Solution)
-  * [2.Count digit Recursive Solution](#count-digit-Recursive-Solution)
+  * [1.and or xor program](#and-or-xor-program)
+  * [2.Right Shift Oprerator Program](#Right-Shift-Oprerator-Program)
+  * [3.Check whether K-th bit is set or not](#Check-whether-K-th-bit-is-set-or-not)
+  
+  and or xor program
    
   
   
@@ -487,28 +489,7 @@ int main()
 
 ## Bit Magic
 
-### and or xor program
-```cpp
-include<bits/stdc++.h>
-using namespace std;
-
-bool isPrime(int n)
-{
-	if(n<=1)
-	return false;
-	for(int i=2;i<n;i++)
-	if(n%i==0)
-	return false;
-	return true;
-}
-
-int main()
-{
-	isPrime(11) ? cout << " true\n" : 
-                  cout << " false\n";
-}
-```
-### and Right Shift Oprerator Program
+### Right Shift Oprerator Program
 ```cpp
 //Left Shift Oprerator
 #include<bits/stdc++.h>
