@@ -36,7 +36,7 @@
   
 
   * [1.program to check if an array is sorted or not using recursion](#program-to-check-if-an-array-is-sorted-or-not-using-recursion)
-  * [3.Check whether K-th bit is set or not](#Check-whether-K-th-bit-is-set-or-not)
+  * [2.find power of given number using recursion](#find-power-of-given-number-using-recursion)
  
   
   
@@ -631,6 +631,25 @@ int main()
 	else{
 		cout<<" Not sorted";
 	}	
+	return 0;
+}
+```
+### find power of given number using recursion
+```cpp
+#include<iostream>
+using namespace std;
+
+int power(int a,int b)
+{
+	if(b==0)
+	return 1;
+	return a*power(a,b-1);
+}
+
+int main(){
+	int a,b;
+	cin>>a>>b;
+	cout<<power(a,b)<<endl;	
 	return 0;
 }
 ```
