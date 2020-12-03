@@ -37,6 +37,13 @@
 
   * [1.program to check if an array is sorted or not using recursion](#program-to-check-if-an-array-is-sorted-or-not-using-recursion)
   * [2.find power of given number using recursion](#find-power-of-given-number-using-recursion)
+  * [3.fibonacci series c++ recursion](#fibonacci-series-CPP-recursion)
+  * [4.Given a array check if it is sorted OR not](#Given-a-array-check-if-it-is-sorted-OR-not)
+  
+  
+  Given a array check if it is sorted OR not
+  
+
  
   
   
@@ -650,6 +657,55 @@ int main(){
 	int a,b;
 	cin>>a>>b;
 	cout<<power(a,b)<<endl;	
+	return 0;
+}
+```
+### fibonacci series CPP recursion
+```cpp
+//fibonacci series c++ recursion
+#include<iostream>
+using namespace std;
+
+int fib(int n){
+	if(n<=1)
+		return n;
+		return fib(n-1)+fib(n-2);
+}
+int main()
+{
+	
+	int n=6;
+	cout<<fib(n)<<endl;
+	return 0;
+}
+```
+### Given a array check if it is sorted OR not
+```cpp
+//Given a array, check if it is sorted OR not !
+#include<bits/stdc++.h>
+using namespace std;
+
+bool isSorted(int *a,int n)
+{
+	if(n==1)
+	return true;
+	if(a[0]<a[1] && isSorted(a+1,n-1)){
+		return true;
+	}
+	return false;
+}
+
+int main()
+{
+	int a[]={1,2,3,4,5};
+	int n=5;
+	
+	if(isSorted(a,n)){
+		cout<<"Yes Sorted !";
+	}
+	else{
+		cout<<"Not Sorted !";
+	}
 	return 0;
 }
 ```
