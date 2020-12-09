@@ -7,7 +7,6 @@ int SumArray(int arr[],int n)
 	
 	for(int i=0;i<n;i++)
 	sum +=arr[i];
-	
 	return sum;
 }
 
@@ -17,3 +16,8 @@ int main()
 	int n=sizeof(arr)/sizeof(arr[0]);
 	cout<<"Sum of Array element is "<<SumArray(arr,n);
 }
+/*
+Output :
+Sum of Array element is 60
+
+*/

@@ -21,3 +21,9 @@ int main()
 	return 0;
 	
 }
+
+/*
+Output :
+Maximum is 45
+
+*/
