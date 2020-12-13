@@ -21,3 +21,8 @@ int main()
 	cout<<"Missing Number is "<<findMissing(arr,n);
 	return 0;
 }
+
+/*
+output :
+Missing Number is 3
+*/

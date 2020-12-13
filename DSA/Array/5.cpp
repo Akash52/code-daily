@@ -27,3 +27,7 @@ int main()
 	cout << "Reversed array is" << endl;
     PrintArray(arr, n);
 }
+/*
+output :
+Reversed array is 4 3 2 1
+*/

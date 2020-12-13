@@ -18,3 +18,6 @@ int main()
 	cout<<"Odd occurance is "<<OddOccurance(arr,n);
 	 
 }
+/*
+Output : OddOccurance 5
+*/
