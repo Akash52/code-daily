@@ -1,14 +1,16 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <map>
+#include <string>
+#include <iterator>
+
 using namespace std;
 
 int main()
 {
-    vector<int> A = {12, 23, 45, 13};
-    cout << A[1] << endl;
-    sort(A.begin(), A.end());
-    //12 13 23 45
-    //o(LogN)
+    map<int, string> months;
 
-    bool present = binary_search(A.begin(), A.end(), 3); //true
-    bool present = binary_search(A.begin(), A.end(),4 ); //False
+    months.insert(1, "January");
+    months.insert(2, "February");
+
+    copy(months.begin(), months.end(), ostream_iterator<pair<int, string> >(cout, "; "));
 }
