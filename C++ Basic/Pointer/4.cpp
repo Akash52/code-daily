@@ -1,4 +1,4 @@
-//Arithmatic Pointer
+//Arithmetic Pointer
 #include<iostream>
 using namespace std;
 
