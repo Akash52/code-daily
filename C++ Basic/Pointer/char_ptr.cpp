@@ -5,6 +5,13 @@ using namespace std;
 
 int main()
 {
+	char str[]="abcde";  //Create Temporary memory
+	char *ptr="abcde";	// Point direct memory
+	
+	cout<<str<<endl;
+	cout<<ptr<<endl;
+	
+	
 	int arr[]={1,2,3};
 	char b[]="abcd";
 	cout<<arr<<endl;
