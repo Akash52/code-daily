@@ -38,6 +38,12 @@ cout<<br[2]<<endl;
 int ab[] = {1, 2, 3, 4, 5};
 cout << *(ab) << " " << *(ab + 4);
 
+//What is the output
+int ac[] = {1, 2, 3, 4};
+int *pt = ac++;  // Error
+cout << *pt << endl;
+
+
 
 
 
