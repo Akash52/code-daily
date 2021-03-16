@@ -20,6 +20,29 @@ int cr[6]={1,2,3};
 
 cout<<cr<<" "<<&cr<<endl;
 
+//Assume that address of 0th index of array ‘a’ is : 200. What is the output -
+
+int arr[6]={1,2,3};
+
+cout<<(a+2)<<endl;
+
+// Assume address of 0th index of array 'a' is 200.
+
+int arry[6]={1,2,3};
+
+int *br=arry;
+cout<<br[2]<<endl;
+
+//Assume address of 0th index of array 'a' is 200.
+
+int ab[] = {1, 2, 3, 4, 5};
+cout << *(ab) << " " << *(ab + 4);
+
+
+
+
+
+
 
 
 
