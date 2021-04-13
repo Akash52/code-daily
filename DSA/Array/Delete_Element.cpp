@@ -10,8 +10,7 @@ int Delete(int arr[],int n,int x){
 	
 	if(i<n)
 	{
-		n=n-1;
-		for(int j=i;j<n;j++)
+		for(int j=i;j<n-1;j++)
 		arr[j]=arr[j+1];
 	}
 	return n;
