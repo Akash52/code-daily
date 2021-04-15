@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
 void moveZero(int arr[],int n)
@@ -7,7 +6,7 @@ void moveZero(int arr[],int n)
 	int count=0;
 	for(int i=0;i<n;i++)
 	if(arr[i]!=0)
-			swap(arr[count++],arr[i]);
+	swap(arr[count++],arr[i]);
 			
 }
 void printArray(int arr[],int n){
