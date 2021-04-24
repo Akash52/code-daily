@@ -20,7 +20,7 @@ int lcm(int a,int b)
 
 int main()
 {
-    cout<<gcd(10,15)<<endl;
+    cout<<gcd(26,3)<<endl;
     cout<<gcd(10,15)<<endl;
 
     cout<<lcm(10,15)<<endl;
