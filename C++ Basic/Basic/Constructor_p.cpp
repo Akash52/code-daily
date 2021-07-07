@@ -1,4 +1,4 @@
-//Withot arithmatic Operator Multiplication
+//Withuot arithmatic Operator Multiplication
 #include<bits/stdc++.h>
 using namespace std;
 
