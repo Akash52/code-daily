@@ -22,6 +22,6 @@ int main()
 	int n=5;
 	
 	cout<<"Factorial Recurision "<<FactorialRecurision(n)<<endl;
-	cout<<"Factorial Iteration "<<FactorialRecurision(n);
+	cout<<"Factorial Iteration "<<FactorialIteration(n);
 	
 }
