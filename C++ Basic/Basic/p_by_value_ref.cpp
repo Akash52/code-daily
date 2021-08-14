@@ -8,7 +8,6 @@ int main()
 {
 	int sandy=13;
 	int bandy=13;
-	
 	PassbyValue(sandy);
 	PassbyReference(&bandy);
 	cout<<"Bandy"<<sandy<<endl;
