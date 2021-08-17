@@ -7,8 +7,8 @@ void leftRotateArray(int arr[],int n)
 {
 	int temp=arr[0];
 	for(int i=1;i<n;i++)
-	arr[i-1]=arr[i];  // First We Copy 2nd element in arr(i-1)
-	arr[n-1]=temp;	// then we assign our first element to last element			
+	arr[i-1]=arr[i];  
+	arr[n-1]=temp;				
 }
 
 void printArray(int arr[],int n)

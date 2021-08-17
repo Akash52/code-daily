@@ -10,8 +10,6 @@ int lengthOf(char name[]){
 	return count;
 }
 
-
-
 int main()
 {
 	char name[100];
