@@ -8,7 +8,7 @@ int linearSearch(int *arr,int i,int n,int key){
 	if(arr[i]==key){
 		return i;
 	}
-	return linearSearch(arr,i+1,n,key);
+	return linearSearch(arr,i+1,n-1,key);
 }
 
 int main(){
