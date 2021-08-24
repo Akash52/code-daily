@@ -6,8 +6,9 @@ void print(int n){
 	if(n==0){
 		return;
 	}
-	print(n/10);
+    print(n/10);
 	cout<<spellings[n%10]<<" ";
+
 }
 
 int main()

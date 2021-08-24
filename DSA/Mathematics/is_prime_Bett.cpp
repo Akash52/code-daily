@@ -17,7 +17,7 @@ int main()
 	if(isPrime(n)){
 		cout<<n<<" is Prime No.";
 	}else{
-		cout<<n<<" is Not Priem";
+		cout<<n<<" is Not Prime";
 	}
 	return 0;
 }
